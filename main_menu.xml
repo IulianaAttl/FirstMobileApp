@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editnoteoption"
+        android:icon="@drawable/ic_edit"
+        android:orderInCategory="90"
+        android:title="Edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addoption"
+        android:icon="@drawable/ic_add"
+        android:orderInCategory="92"
+        android:title="Add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/deleteoption"
+        android:icon="@drawable/ic_delete"
+        android:orderInCategory="92"
+        android:title="Delete"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/editprofileoption"
+        android:title="Edit Profile" />
+    <item
+        android:id="@+id/logoutoption"
+        android:title="Logout" />
+</menu>
